@@ -34,6 +34,13 @@ a {
   color: inherit;
 }
 
+.fixed {
+  border: 2px solid #466995;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+}
+
 h1 {
   color: #466995;
   font-family: "Oswald", sans-serif;
@@ -101,11 +108,4 @@ footer {
 .answer:hover {
   background: #C0D6DF;
   color: #FFF;
-}
-
-.fixed {
-  border: 2px solid #466995;
-  position: fixed;
-  right: 5px;
-  bottom: 5px;
 }
