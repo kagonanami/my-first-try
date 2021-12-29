@@ -22,8 +22,12 @@ header {
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
-  href: #;
+  hover {
+  color: #DBE9EE;
 }
+}
+
+a { color: inherit; }
 
 li:hover {
   color: #DBE9EE;
