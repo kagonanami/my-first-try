@@ -6,6 +6,8 @@ body {
 header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
+  position: sticky;
+  top: 0px;
 }
 
 .flex {
@@ -22,15 +24,14 @@ header {
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
-  hover {
-  color: #DBE9EE;
-}
 }
 
-a { color: inherit; }
-
-li:hover {
+.item:hover {
   color: #DBE9EE;
+}
+
+a {
+  color: inherit;
 }
 
 h1 {
@@ -100,4 +101,11 @@ footer {
 .answer:hover {
   background: #C0D6DF;
   color: #FFF;
+}
+
+.fixed {
+  border: 2px solid #466995;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
 }
