@@ -103,6 +103,8 @@ footer {
 .answer {
   border: 1px solid #466995;
   margin: 20px;
+   align-items: flex-start;
+  justify-content: space-between;
 }
 
 .answer:hover {
