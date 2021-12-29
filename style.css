@@ -8,18 +8,21 @@ header {
   border-bottom: 1px solid #466995;
 }
 
-ul {
-  margin: 30px auto;
-  padding: 0 20px;
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px auto;
+  padding: 20px 20px;
   text-align: center;
 }
 
-li {
+.item {
   color: #FFF;
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
+  href: #;
 }
 
 li:hover {
